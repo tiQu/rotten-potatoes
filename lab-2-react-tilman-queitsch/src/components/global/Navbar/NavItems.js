@@ -1,26 +1,26 @@
-const NavItems = [
+export const NavItems = [
     {
-        title: 'Home',
+        title: 'Movies',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Subsection 1',
+        title: 'TV Shows',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Subsection 2',
+        title: 'MP Podcast',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Subsection 3',
+        title: 'News',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Subsection 4',
+        title: 'Showtimes',
         url: '#',
         cName: 'nav-links'
     }
