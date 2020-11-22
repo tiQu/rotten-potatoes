@@ -81,4 +81,12 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
+
+    .bars-shown, .x-shown {
+        display: block;
+    }
+
+    .bars-hidden, .x-hidden {
+        display: none;
+    }
 }
