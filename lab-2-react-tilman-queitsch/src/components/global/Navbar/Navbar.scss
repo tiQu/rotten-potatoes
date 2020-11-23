@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-
 nav, .nav-links {
     background-color: #744529;
     color: #f6ecbb;
@@ -18,6 +17,7 @@ nav, .nav-links {
 .navbar-logo {
     justify-self: start;
     margin-left: 20px;
+    font-size: x-large;
     cursor: pointer;
     font-family: 'Black Han Sans', sans-serif;
     white-space: pre-wrap;
