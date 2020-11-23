@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+nav, .nav-links {
+    background-color: #744529;
+    color: #f6ecbb;
+    height: 100px;
+}
 
 .NavbarItems {
     display: flex;
@@ -8,12 +16,12 @@
 }
 
 .navbar-logo {
-    color: black;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     font-family: 'Black Han Sans', sans-serif;
     white-space: pre-wrap;
+    text-align: center;
 }
 
 .nav-menu {
@@ -27,7 +35,8 @@
 }
 
 .nav-links {
-
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 }
 
 .nav-links-mobile {

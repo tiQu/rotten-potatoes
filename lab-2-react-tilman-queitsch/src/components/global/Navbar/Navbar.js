@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavItems } from './NavItems';
-import './Navbar.css';
+import './Navbar.scss';
 
 class Navbar extends React.Component{
     state = { clicked: false } 
