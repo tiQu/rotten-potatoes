@@ -1,13 +1,13 @@
 import './App.scss';
 import Header from './components/global/Header/Header';
 import Footer from './components/global/Footer/Footer';
-import Body from './components/global/Body/Body';
+import Main from './components/global/Main/Main';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <Main />
       <Footer />
     </div>
   );
