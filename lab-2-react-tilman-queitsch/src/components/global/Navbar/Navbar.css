@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
 .NavbarItems {
     display: flex;
     justify-content: center;
@@ -10,6 +12,8 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    font-family: 'Black Han Sans', sans-serif;
+    white-space: pre-wrap;
 }
 
 .nav-menu {
@@ -70,6 +74,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        font-family: BlackHanSans;
     }
 
     .menu-icon {
