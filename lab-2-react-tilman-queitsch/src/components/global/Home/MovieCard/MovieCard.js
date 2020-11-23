@@ -7,6 +7,6 @@ class MovieCard extends React.Component{
             <div></div>
         );
     }
-  }
+}
 
 export default MovieCard;
