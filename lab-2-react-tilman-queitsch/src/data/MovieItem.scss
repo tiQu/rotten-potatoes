@@ -1,0 +1,13 @@
+.movie-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item .poster {
+    max-width: 100px;
+}
+
+.movie-item .movie-potato {
+    max-height: 20%;
+    max-width: 20%;
+}
