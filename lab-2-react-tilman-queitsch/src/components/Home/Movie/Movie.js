@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Movieitem from '../../../data/MovieItem';
+import Movieitem from '../../../data/MovieItem/MovieItem';
 
 function createMovie(movie){
     return <Movieitem

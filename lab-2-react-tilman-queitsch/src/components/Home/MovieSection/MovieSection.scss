@@ -6,3 +6,7 @@
 .movie-row div {
     display: flex;
 }
+
+.movie-row {
+    overflow: scroll;
+}
