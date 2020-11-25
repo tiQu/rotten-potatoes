@@ -1,3 +1,6 @@
+@import '../../../styles/variables';
+@import '../../../styles/reset';
+
 .main-movie {
     display: flex;
     flex-direction: column;
@@ -5,8 +8,19 @@
 
 .movie-row div {
     display: flex;
+    padding: 0.3rem
+}
+
+.movie-row h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 2px solid $brown;
+    padding: 0.3rem;
+    margin-left: 0.6rem;
+    margin-top: 0.3rem;
 }
 
 .movie-row {
     overflow: scroll;
+    font-family: Oswald, sans-serif;
 }

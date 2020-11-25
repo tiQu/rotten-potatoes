@@ -1,9 +1,9 @@
+@import '../../../styles/variables';
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 nav, .nav-links {
-    background-color: #744529;
-    color: #f6ecbb;
+    background-color: $brown;
+    color: $yellow-light;
     height: 100px;
 }
 
@@ -22,6 +22,7 @@ nav, .nav-links {
     font-family: 'Black Han Sans', sans-serif;
     white-space: pre-wrap;
     text-align: center;
+    color: $yellow;
 }
 
 .nav-menu {

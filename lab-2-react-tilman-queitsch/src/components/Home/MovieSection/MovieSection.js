@@ -7,12 +7,15 @@ class MovieSection extends React.Component{
         return (
             <div className="main-movie">
                 <div className="movie-row">
+                    <h2>Popular</h2>
                     <Movie keyword='popular' sortBy='pop'/>
                 </div>
                 <div className="movie-row">
+                    <h2>Now Playing</h2>
                     <Movie keyword='now_playing' sortBy='none'/>
                 </div>
                 <div className="movie-row">
+                    <h2>Upcoming</h2>
                     <Movie keyword='upcoming' sortBy='none'/>
                 </div>
             </div>
