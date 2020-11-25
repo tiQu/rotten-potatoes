@@ -4,7 +4,7 @@ import './Footer.scss';
 class Footer extends React.Component{
     render(){
         return (
-            <footer>
+            <footer className="app-footer">
                 <div className="footer-section">
                     <a href="#">Help</a>
                     <a href="#">About Rotten Potatoes</a>

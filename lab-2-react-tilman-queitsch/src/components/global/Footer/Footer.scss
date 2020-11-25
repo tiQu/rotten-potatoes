@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import '../../../styles/variables';
 @import '../../../styles/reset';
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-footer {
+.app-footer {
     background-color: #474747;
     display: flex;
     justify-content: space-evenly;
