@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import '../../../styles/variables';
+@import '../../../styles/reset';
 
 footer {
     background-color: #474747;
@@ -24,4 +25,30 @@ footer > div {
 svg {
     fill: #fff !important;
     padding-right: 7px;
+}
+
+.social li {
+    list-style: none;
+    padding: 5px 0px;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .footer-section:first-child {
+        padding-top: 0px;
+    }
+
+    .footer-section:last-child {
+        border-bottom: 0px;
+    }
 }

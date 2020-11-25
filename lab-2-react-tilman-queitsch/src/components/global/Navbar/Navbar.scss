@@ -1,4 +1,5 @@
 @import '../../../styles/variables';
+@import '../../../styles/reset';
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 nav, .nav-links {
@@ -22,13 +23,16 @@ nav, .nav-links {
     font-family: 'Black Han Sans', sans-serif;
     white-space: pre-wrap;
     text-align: center;
+}
+
+.navbar-logo span {
     color: $yellow;
 }
 
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    grid-gap: 0px;
     list-style: none;
     text-align: center;
     width: 70vw;
@@ -37,6 +41,7 @@ nav, .nav-links {
 
 .nav-links {
     text-decoration: none;
+    padding-left: 2rem;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -56,16 +61,18 @@ nav, .nav-links {
     .nav-menu {
         display: flex;
         flex-direction: column;
+        grid-gap: 0px;
         width: 100%;
-        height: 500px;
+        // height: 500px;
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
     }
 
     .nav-menu.active {
+        top: 100%;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -74,17 +81,23 @@ nav, .nav-links {
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        // padding: 2rem;
         width: 100%;
         display: table;
+        padding: 1rem 0rem;
+        height: 0px;
+        border-top: 2px solid $brown-dark;
+        border-bottom: 2px solid $brown-dark;
     }
 
     .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 50%);
-        font-family: BlackHanSans;
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // transform: translate(25%, 50%);
+        align-self: center;
+        padding: 1rem 0rem;
+        font-family: 'Black Han Sans', sans-serif;
     }
 
     .menu-icon {
@@ -92,9 +105,13 @@ nav, .nav-links {
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        transform: translate(-80%, 80%);
         font-size: 1.8rem;
         cursor: pointer;
+    }
+    
+    .menu-icon i svg {
+        fill: $yellow-light !important;
     }
 
     .bars-shown, .x-shown {

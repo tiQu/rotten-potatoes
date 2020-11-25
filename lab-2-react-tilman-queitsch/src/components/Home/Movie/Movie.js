@@ -6,6 +6,7 @@ function createMovie(movie){
             title = {movie.title}
             vote_average = {movie.vote_average.toString()}
             poster_path = {movie.poster_path}
+            release_date = {movie.release_date}
             />;
 }
 
@@ -19,7 +20,6 @@ export default class Movies extends Component {
     }
 
     componentDidMount(){
-        //fetch('https://api.themoviedb.org/3/movie/550?api_key=4d50e231ebab0b714167607ce53b71f1')
         fetch('https://api.themoviedb.org/3/movie/' + this.props.keyword + '?api_key=4d50e231ebab0b714167607ce53b71f1&language=en-US')
             .then(res=>res.json())
             .then(json=> {

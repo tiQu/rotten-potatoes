@@ -1,14 +1,26 @@
 .movie-item {
-    display: flex;
+    // display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    // flex-wrap: wrap;
+    width: 12rem;
 }
 
 .movie-item .poster {
-    max-width: 100px;
+    max-width: 10rem;
     border-radius: 4px;
 }
 
 .movie-item .movie-potato {
-    max-height: 20%;
-    max-width: 20%;
+    max-height: 30px;
+    max-width: 30px;
+    padding-top: 3px;
+}
+
+.movie-summary {
+    align-items: center;
+}
+
+.releaseDate {
+    font-size: smaller;
 }

@@ -8,9 +8,12 @@ export default class Movieitem extends Component {
         return (
                 <div className='movie-item'>
                     <img className="poster" src={'https://image.tmdb.org/t/p/w600_and_h900_bestv2/' + this.props.poster_path}></img>
-                    <div>{this.props.vote_average}%</div>
-                    <img className="movie-potato" src={((parseFloat(this.props.vote_average) >= 60) ? fries : potato_brown)}></img>
+                    <div className="movie-summary">
+                        <img className="movie-potato" src={((parseFloat(this.props.vote_average) >= 60) ? fries : potato_brown)}></img>
+                        <div className="movie-title">{this.props.vote_average}%</div>
+                    </div>
                     <div>{this.props.title}</div> 
+                    <div className="releaseDate">Released: {this.props.release_date}</div> 
                 </div>
         );
     }
