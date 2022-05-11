@@ -20,7 +20,7 @@ export default class Movies extends Component {
     }
 
     componentDidMount(){
-        fetch('https://api.themoviedb.org/3/movie/' + this.props.keyword + '?api_key=4d50e231ebab0b714167607ce53b71f1&language=en-US')
+        fetch('https://api.themoviedb.org/3/movie/' + this.props.keyword + '?api_key=[NEW_API_KEY_GOES_HERE]&language=en-US')
             .then(res=>res.json())
             .then(json=> {
                 this.setState({
